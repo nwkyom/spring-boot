@@ -39,18 +39,6 @@ To execute tests:
 ./gradlew cleanTests tests
 ```
 
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-
-
 ## Built With
 
 * [Spring Boot](https://projects.spring.io/spring-boot/) - Builder of production-ready Spring applications
@@ -67,8 +55,6 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## Authors
 
 * **Yom Nwk** - *Initial work* - [nwkyom](https://github.com/nwkyom)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
 
 ## License
 
