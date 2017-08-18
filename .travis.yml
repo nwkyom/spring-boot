@@ -1,3 +1,6 @@
+language: java
+sudo: false # Use container based builds. They are faster and we do not need sudo.
+
 before_cache:
   - rm -f  $HOME/.gradle/caches/modules-2/modules-2.lock
   - rm -fr $HOME/.gradle/caches/*/plugin-resolution/
@@ -5,5 +8,3 @@ cache:
   directories:
     - $HOME/.gradle/caches/
     - $HOME/.gradle/wrapper/
-
-language: java
